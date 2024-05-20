@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "9779818942338",
-    "password": "anyaqueen",
+    "email": "rkraselislam101520@gmail.com ",
+    "password": "97618637",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -13,20 +13,23 @@
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
   "adminOnly": {
-    "enable": false,
-    "ignoreCommand": []
+    "enable": true,
+    "ignoreCommand": [
+      "sdxl"
+    ]
   },
   "adminBot": [
-    "100087591006635",
-    "61556771164358"
+    "100004085390255",
+    "100082741833069"
+    
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "S K Y 🕊️",
-  "prefix": "+",
+  "nickNameBot": "GOATBOT-V3",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -37,15 +40,15 @@
   "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "batwire187@gmail.com",
-      "clientId": "8864284320-3v8dd1uqtijifcmmg51t1j2po151si61.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//045OTpkSYZIviCgYIARAAGAQSNwF-L9Irm2r6F8_a-TDFfIbxTi-DBpTOmkZzOxqDqs9BQ8j7IGhBwJWZv-8Gfgtb-yVVr0BDiTA",
+      "email": "rkraselislam101520@gmail.com ",
+      "clientId": "749047742198-pckgm4ukvkc19uudveunkv52h3ca7aqd.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04PNQtuje0iHvCgYIARAAGAQSNwF-L9IrzE_9Uge_97uOGmCtrEJOVv09aJXckFA3diPUtzhXfEVbsoLqzfK_64IHT6VimP4eBaU",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6Lde1aEoAAAAAMVeuiFxFZZUExAO7fjn5Ap18kWD",
-      "secretKey": "6Lde1aEoAAAAAHDHrY5Y39DU2QyGwInfr2mO53PC"
+      "siteKey": "6Le2gdgpAAAAAEPhHY2r6wv5ITds5_6NPYhTFwuv",
+      "secretKey": "6Le2gdgpAAAAAE7XEQ5VXK-L_W1GfcOpnZgf4EHv"
     }
   },
   "dashBoard": {
@@ -145,4 +148,4 @@
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
     "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
-}
+} 
